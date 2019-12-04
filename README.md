@@ -1,24 +1,8 @@
 # vue-taobao-h5
 
-## Project setup
-```
-yarn install
-```
+## Notes
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
+> `vue create vue-taobao-h5` 是选择手动
 
-### Compiles and minifies for production
-```
-yarn build
-```
-
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+* 下载的 `iconfonts` 到 `assets/fonts`，新建 `/scss/_icons.scss`
+  * _icons.scss 编译器不会编译成css文件，且暗示在scss中内部引用
